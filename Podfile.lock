@@ -1,0 +1,74 @@
+PODS:
+  - ActiveLabel (1.1.0)
+  - Alamofire (5.4.1)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - Floaty (4.2.0)
+  - GrowingTextView (0.7.2)
+  - IBAnimatable (6.1.0)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Nuke (9.2.4)
+  - Realm (10.5.1):
+    - Realm/Headers (= 10.5.1)
+  - Realm/Headers (10.5.1)
+  - RealmSwift (10.5.1):
+    - Realm (= 10.5.1)
+  - RxSwift (6.0.0)
+  - SkeletonView (1.12.0)
+  - SwiftyMarkdown (1.2.3)
+  - YNDropDownMenu (3.1.0)
+
+DEPENDENCIES:
+  - ActiveLabel
+  - Charts
+  - Floaty
+  - GrowingTextView (= 0.7.2)
+  - IBAnimatable
+  - Moya
+  - Nuke
+  - RealmSwift
+  - RxSwift
+  - SkeletonView
+  - SwiftyMarkdown
+  - YNDropDownMenu
+
+SPEC REPOS:
+  trunk:
+    - ActiveLabel
+    - Alamofire
+    - Charts
+    - Floaty
+    - GrowingTextView
+    - IBAnimatable
+    - Moya
+    - Nuke
+    - Realm
+    - RealmSwift
+    - RxSwift
+    - SkeletonView
+    - SwiftyMarkdown
+    - YNDropDownMenu
+
+SPEC CHECKSUMS:
+  ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  Floaty: e2bd5a0f6f7f70899e26ff2da31081c8bee8d1b0
+  GrowingTextView: 876bf42005b5e4a4fd740597db12caaf41f0fe6c
+  IBAnimatable: 99dddd4c0625884a301ba3ecbc1615f8a390368e
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Nuke: 44439f7a92e665a4f927ecd73cb51f91d93b0e0c
+  Realm: 77fcb4e0b9f2963ea06f584749a0d7dc9cab95e1
+  RealmSwift: 6abe6aa6cd8b70cc1a87afcb9232cabea74ff1ac
+  RxSwift: c14e798c59b9f6e9a2df8fd235602e85cc044295
+  SkeletonView: 3aca8da20cfd0d577fbcd7832c4535983f827328
+  SwiftyMarkdown: be01b2905694bd7bfd95330cd43704bfdb978aec
+  YNDropDownMenu: 9c88e36c5f913bc614aaf0f3d0a7968f6251268b
+
+PODFILE CHECKSUM: 050ef3f0a13708061835132c63e2585cb0313425
+
+COCOAPODS: 1.10.0
