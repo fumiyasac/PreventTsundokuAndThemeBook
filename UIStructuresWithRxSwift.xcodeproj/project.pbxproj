@@ -19,6 +19,12 @@
 		DE69E8E525CE9DF9004DBE9D /* UIStructuresWithRxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE69E8E425CE9DF9004DBE9D /* UIStructuresWithRxSwiftTests.swift */; };
 		DE69E8F025CE9DF9004DBE9D /* UIStructuresWithRxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE69E8EF25CE9DF9004DBE9D /* UIStructuresWithRxSwiftUITests.swift */; };
 		DE69E92925D0036C004DBE9D /* CustomViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE69E92825D0036C004DBE9D /* CustomViewBase.swift */; };
+		DE69E92E25D003CB004DBE9D /* NSObjectProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE69E92D25D003CB004DBE9D /* NSObjectProtocolExtension.swift */; };
+		DE69E93325D003F1004DBE9D /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE69E93225D003F1004DBE9D /* UICollectionViewExtension.swift */; };
+		DE69E93B25D00419004DBE9D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE69E93A25D00419004DBE9D /* UIColorExtension.swift */; };
+		DE69E94025D0046C004DBE9D /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE69E93F25D0046C004DBE9D /* UIViewControllerExtension.swift */; };
+		DE69E94525D00486004DBE9D /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE69E94425D00486004DBE9D /* UITableViewExtension.swift */; };
+		DE69E94A25D004A0004DBE9D /* StoryboardInstantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE69E94925D004A0004DBE9D /* StoryboardInstantiatable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +67,12 @@
 		DE69E8EF25CE9DF9004DBE9D /* UIStructuresWithRxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStructuresWithRxSwiftUITests.swift; sourceTree = "<group>"; };
 		DE69E8F125CE9DF9004DBE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE69E92825D0036C004DBE9D /* CustomViewBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewBase.swift; sourceTree = "<group>"; };
+		DE69E92D25D003CB004DBE9D /* NSObjectProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectProtocolExtension.swift; sourceTree = "<group>"; };
+		DE69E93225D003F1004DBE9D /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
+		DE69E93A25D00419004DBE9D /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		DE69E93F25D0046C004DBE9D /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		DE69E94425D00486004DBE9D /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		DE69E94925D004A0004DBE9D /* StoryboardInstantiatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiatable.swift; sourceTree = "<group>"; };
 		F01F5B4923DBA40E360305C5 /* Pods_UIStructuresWithRxSwift_UIStructuresWithRxSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIStructuresWithRxSwift_UIStructuresWithRxSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3166414D6F6BD4FF968739A /* Pods-UIStructuresWithRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIStructuresWithRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-UIStructuresWithRxSwift/Pods-UIStructuresWithRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,21 +153,16 @@
 		DE69E8CC25CE9DF7004DBE9D /* UIStructuresWithRxSwift */ = {
 			isa = PBXGroup;
 			children = (
-				DE69E92125D00233004DBE9D /* Infrastructure */,
-				DE69E92025D00222004DBE9D /* Modules */,
-				DE69E91F25D0020D004DBE9D /* Domain */,
-				DE69E91E25D00206004DBE9D /* Presenter */,
-				DE69E91D25D001F5004DBE9D /* Contract */,
-				DE69E91C25D001E8004DBE9D /* ViewController */,
-				DE69E91B25D001E2004DBE9D /* View */,
-				DE69E91A25D001D1004DBE9D /* Classes */,
-				DE69E91925D001CA004DBE9D /* Enum */,
-				DE69E91825D001C2004DBE9D /* Extension */,
-				DE69E91725D001B2004DBE9D /* Storyboard */,
+				DE69E8DB25CE9DF9004DBE9D /* Info.plist */,
 				DE69E8CD25CE9DF7004DBE9D /* AppDelegate.swift */,
 				DE69E8CF25CE9DF7004DBE9D /* SceneDelegate.swift */,
 				DE69E8D625CE9DF9004DBE9D /* Assets.xcassets */,
-				DE69E8DB25CE9DF9004DBE9D /* Info.plist */,
+				DE69E95225D00511004DBE9D /* Architecture */,
+				DE69E95525D005CB004DBE9D /* Screen */,
+				DE69E91A25D001D1004DBE9D /* Classes */,
+				DE69E91925D001CA004DBE9D /* Enum */,
+				DE69E91825D001C2004DBE9D /* Extension */,
+				DE69E92025D00222004DBE9D /* Modules */,
 			);
 			path = UIStructuresWithRxSwift;
 			sourceTree = "<group>";
@@ -190,6 +197,12 @@
 		DE69E91825D001C2004DBE9D /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				DE69E92D25D003CB004DBE9D /* NSObjectProtocolExtension.swift */,
+				DE69E93225D003F1004DBE9D /* UICollectionViewExtension.swift */,
+				DE69E93A25D00419004DBE9D /* UIColorExtension.swift */,
+				DE69E93F25D0046C004DBE9D /* UIViewControllerExtension.swift */,
+				DE69E94425D00486004DBE9D /* UITableViewExtension.swift */,
+				DE69E94925D004A0004DBE9D /* StoryboardInstantiatable.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -212,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				DE69E92825D0036C004DBE9D /* CustomViewBase.swift */,
+				DE69E95425D00581004DBE9D /* ViewPiece */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -231,16 +245,19 @@
 			path = Contract;
 			sourceTree = "<group>";
 		};
-		DE69E91E25D00206004DBE9D /* Presenter */ = {
+		DE69E91E25D00206004DBE9D /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				DE69E94E25D004C7004DBE9D /* Presenter */,
+				DE69E91D25D001F5004DBE9D /* Contract */,
 			);
-			path = Presenter;
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 		DE69E91F25D0020D004DBE9D /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				DE69E95025D004FB004DBE9D /* DomainModel */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -255,8 +272,73 @@
 		DE69E92125D00233004DBE9D /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				DE69E94F25D004E7004DBE9D /* Entity */,
 			);
 			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		DE69E94E25D004C7004DBE9D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DE69E94F25D004E7004DBE9D /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		DE69E95025D004FB004DBE9D /* DomainModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DomainModel;
+			sourceTree = "<group>";
+		};
+		DE69E95125D00508004DBE9D /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				DE69E95325D0055E004DBE9D /* DataTransferObject */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		DE69E95225D00511004DBE9D /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				DE69E92125D00233004DBE9D /* Infrastructure */,
+				DE69E91F25D0020D004DBE9D /* Domain */,
+				DE69E91E25D00206004DBE9D /* Presentation */,
+				DE69E95125D00508004DBE9D /* UseCase */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		DE69E95325D0055E004DBE9D /* DataTransferObject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataTransferObject;
+			sourceTree = "<group>";
+		};
+		DE69E95425D00581004DBE9D /* ViewPiece */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewPiece;
+			sourceTree = "<group>";
+		};
+		DE69E95525D005CB004DBE9D /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				DE69E91725D001B2004DBE9D /* Storyboard */,
+				DE69E91C25D001E8004DBE9D /* ViewController */,
+				DE69E91B25D001E2004DBE9D /* View */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -498,9 +580,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE69E92925D0036C004DBE9D /* CustomViewBase.swift in Sources */,
+				DE69E93B25D00419004DBE9D /* UIColorExtension.swift in Sources */,
+				DE69E93325D003F1004DBE9D /* UICollectionViewExtension.swift in Sources */,
 				DE69E8D225CE9DF7004DBE9D /* MainViewController.swift in Sources */,
+				DE69E94025D0046C004DBE9D /* UIViewControllerExtension.swift in Sources */,
 				DE69E8CE25CE9DF7004DBE9D /* AppDelegate.swift in Sources */,
+				DE69E94525D00486004DBE9D /* UITableViewExtension.swift in Sources */,
 				DE69E8D025CE9DF7004DBE9D /* SceneDelegate.swift in Sources */,
+				DE69E92E25D003CB004DBE9D /* NSObjectProtocolExtension.swift in Sources */,
+				DE69E94A25D004A0004DBE9D /* StoryboardInstantiatable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
