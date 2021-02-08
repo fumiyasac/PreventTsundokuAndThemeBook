@@ -159,10 +159,8 @@
 				DE69E8D625CE9DF9004DBE9D /* Assets.xcassets */,
 				DE69E95225D00511004DBE9D /* Architecture */,
 				DE69E95525D005CB004DBE9D /* Screen */,
-				DE69E91A25D001D1004DBE9D /* Classes */,
-				DE69E91925D001CA004DBE9D /* Enum */,
-				DE69E91825D001C2004DBE9D /* Extension */,
-				DE69E92025D00222004DBE9D /* Modules */,
+				DE9B486725D10D6C0066D718 /* Coodinator */,
+				DE9B486825D10D840066D718 /* Useful */,
 			);
 			path = UIStructuresWithRxSwift;
 			sourceTree = "<group>";
@@ -339,6 +337,24 @@
 				DE69E91B25D001E2004DBE9D /* View */,
 			);
 			path = Screen;
+			sourceTree = "<group>";
+		};
+		DE9B486725D10D6C0066D718 /* Coodinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coodinator;
+			sourceTree = "<group>";
+		};
+		DE9B486825D10D840066D718 /* Useful */ = {
+			isa = PBXGroup;
+			children = (
+				DE69E91A25D001D1004DBE9D /* Classes */,
+				DE69E91925D001CA004DBE9D /* Enum */,
+				DE69E91825D001C2004DBE9D /* Extension */,
+				DE69E92025D00222004DBE9D /* Modules */,
+			);
+			path = Useful;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
