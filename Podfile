@@ -26,6 +26,7 @@ target 'UIStructuresWithRxSwift' do
   pod 'SwiftyMarkdown'
   pod 'Floaty'
   pod 'ActiveLabel'
+  pod 'BulletinBoard'
 
   target 'UIStructuresWithRxSwiftTests' do
     inherit! :search_paths
