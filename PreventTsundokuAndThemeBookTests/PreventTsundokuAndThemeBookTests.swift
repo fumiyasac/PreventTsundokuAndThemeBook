@@ -1,14 +1,14 @@
 //
-//  UIStructuresWithRxSwiftTests.swift
-//  UIStructuresWithRxSwiftTests
+//  PreventTsundokuAndThemeBookTests.swift
+//  PreventTsundokuAndThemeBookTests
 //
-//  Created by 酒井文也 on 2021/02/06.
+//  Created by 酒井文也 on 2021/06/14.
 //
 
 import XCTest
-@testable import UIStructuresWithRxSwift
+@testable import PreventTsundokuAndThemeBook
 
-class UIStructuresWithRxSwiftTests: XCTestCase {
+class PreventTsundokuAndThemeBookTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
